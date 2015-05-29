@@ -1,0 +1,127 @@
+@font-face {
+    font-family: stark;
+    src: url(Fonts/Stark.otf);
+}
+@font-face {
+    font-family: magra;
+    src: url(Fonts/Magra-Regular.ttf);
+}
+@font-face {
+    font-family: swash;
+    src: url(Fonts/BerkshireSwash-Regular.ttf);
+}
+body {
+    /*background-image: url("https://wallwidehd.com/wp-content/uploads/Ant-Man-2015-Movie-Poster-Wallpaper.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;*/
+    background-color:#82CAFA;
+    font-family: magra;
+}
+a {
+    text-decoration:none;
+    color:inherit
+}
+#header {
+    background-color: black;
+    border-radius:1em;
+    font-family: swash;
+}
+#headerLeft {
+    height: 8em;
+    width: 6em;
+}
+#headerRight {
+    height: 8em;
+    width: 78em;
+}
+#logo {
+    height:6em;
+    width:6em;
+    cursor:pointer;
+}
+#DisaSup {
+    color:#82CAFA;
+    font-size:3em;
+}
+#click {
+    margin-top:.4em;
+    height:2.4em;
+    width:11.6em;
+    font-size:1em;
+    border-top-left-radius:1em;
+    border-top-right-radius: 1em;
+    background-color:#82CAFA;
+    border:#82CAFA;
+    color:#82CAFA;
+    font-family: stark;
+}
+.clicky {
+    margin-left: auto;
+    margin-right: auto;
+    height:2.4em;
+    width:8em;
+    font-size:1em;
+    border-radius:1em;
+    background-color:black;
+    border:grey;
+    color:#82CAFA;
+    font-family: stark;
+    cursor:pointer;
+}
+.clicky:hover {
+    background-color:black;
+    color: #82CAFA;
+    border:.2em solid #82CAFA;
+}
+#main {
+    background-color:white;
+    height:auto;
+    width:60em;
+    margin-top:.5em;
+    position:absolute;
+    left:14.5%;
+}
+.text {
+    margin-left: .5em;
+}
+.title {
+    font-size: 2em;
+}
+#left {
+    float: left;
+    width:29em;
+    margin-left: 1em;
+}
+#right {
+    float: left;
+    width:30em;
+    text-align:center;
+}
+#mainImage {
+    width: 40%;
+}
+.disaImage {
+    width: 40%;
+    text-align:center;
+}
+.text {
+    margin-left: .5em;
+}
+li.a {
+    font-weight:bold;
+    cursor:pointer;
+}
+li.a:hover {
+    color:#FF0000;
+}
+li.b {
+    list-style-type: circle;
+    margin-left: 2em
+}
+#title {
+    font-size: 2em;
+}
+.disaImage {
+    width: 40%;
+}
