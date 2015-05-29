@@ -1,5 +1,5 @@
 function Home() {
-    window.location.href = 'disaMain.html';
+    window.location.href = 'index.html';
 }
 
 function Disabilties() {
